@@ -9,13 +9,11 @@ This dev environment uses the [RLLBC](https://github.com/Data-Science-in-Mechani
 ## Windows
     powershell -ExecutionPolicy ByPass -c "irm -useb https://pixi.sh/install.ps1 | iex"
 
-
-# Clone this repository
-    git clone https://github.com/AtharvaBhorpe/rwth_rl_exercise_pixi_setup.git
-    cd rwth_rl_exercise_pixi_setup/
-
 # Clone the [RLLBC](https://github.com/Data-Science-in-Mechanical-Engineering/RLLBC) repository inside this repository folder
     git clone https://github.com/Data-Science-in-Mechanical-Engineering/RLLBC.git
+    cd RLLBC
+
+# Download the pixi.toml config file from this repo inside the RLLBC directory
 
 # Install all dependencies
     pixi run uv pip sync ./RLLBC/requirements.txt 
