@@ -13,7 +13,7 @@ This dev environment uses the [RLLBC](https://github.com/Data-Science-in-Mechani
     git clone https://github.com/Data-Science-in-Mechanical-Engineering/RLLBC.git
     cd RLLBC
 
-# 3. Download the pixi.toml config file from this repo inside the RLLBC directory
+# 3. Download the [pixi.toml](https://github.com/AtharvaBhorpe/rwth_rl_exercise_pixi_setup/blob/main/pixi.toml) config file from this repo inside the RLLBC directory
 
 # 4. Install all dependencies
     pixi run uv pip sync ./requirements.txt 
