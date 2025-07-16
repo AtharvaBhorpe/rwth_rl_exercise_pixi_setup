@@ -1,11 +1,11 @@
 [workspace]
 channels = ["conda-forge"]
 name = "rwth_rl_exercise_pixi_setup"
-platforms = ["linux-64"]
+platforms = ["linux-64", "win-64"]
 version = "0.1.0"
 
 [tasks]
 
 [dependencies]
-python = ">=3.13.3,<3.14"
+python = "3.10.*"
 uv = ">=0.7.6,<0.8"
